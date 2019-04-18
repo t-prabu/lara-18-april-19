@@ -1,0 +1,15 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Prod 1",
+            "quantity_in_stock": "100",
+            "price_per_item": "200",
+            "created_at": "2019-04-18 21:13:50"
+        }
+    ],
+    "meta": {
+        "current_count": -12,
+        "original_count": 18
+    }
+}
