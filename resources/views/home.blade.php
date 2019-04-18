@@ -153,7 +153,7 @@
                                                         <td>${product.quantity_in_stock}</td>
                                                         <td>${product.price_per_item}</td>
                                                         <td>
-    <form method="POST" action="http://127.0.0.1:8000/product/destroy/${product.id}" accept-charset="UTF-8" class="js-destroy-products-fm"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="f91Lt88CtSoLyuEfKaXYjgDMN54jZjVIbWxVe6n3"> <input class="btn btn-danger" type="submit" value="Delete"> </form>
+    <form method="POST" action="/product/destroy/${product.id}" accept-charset="UTF-8" class="js-destroy-products-fm"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="f91Lt88CtSoLyuEfKaXYjgDMN54jZjVIbWxVe6n3"> <input class="btn btn-danger" type="submit" value="Delete"> </form>
 
 </td>`;
                                                     allHtml = allHtml + trHtml;
